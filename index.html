@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uchiha Itachi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/499a4f09fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="img/logo.png" class="logo">
+            <ul>
+                <li><img src="img/notification.png"></li>
+                <li><img src="img/inbox.png"></li>
+                <li><img src="img/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="img/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="img/my avt.jpg">
+            </div>
+        </div>
+        <!-- settings-menu -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="img/my avt.jpg">
+                    <div>
+                        <p>Pham Long Hai</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="img/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="img/setting.png" class="settings-icon"> 
+                    <a href="#">Settings & Privacy 
+                    <img src="img/arrow.png" width="10px">
+                    </a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="img/help.png" class="settings-icon"> 
+                    <a href="#">Help & Support
+                    <img src="img/arrow.png" width="10px">
+                    </a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="img/display.png" class="settings-icon"> 
+                    <a href="#">Display & Accessibility
+                    <img src="img/arrow.png" width="10px">
+                    </a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="img/logout.png" class="settings-icon"> 
+                    <a href="#">logout
+                    <img src="img/arrow.png" width="10px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- profile page -->
+
+    <div class="profile-container">
+        <img src="img/cover.gif" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="img/Itachi_Akatsuki.png"class="pd-imges">
+                    <div>
+                        <h3>Uchiha Itachi</h3>
+                        <p>25 Friends - 25 mutual</p>
+                        <img src="img/naruto-fr.png">
+                        <img src="img/kisame-fr.png">
+                        <img src="img/sasuke-fr.png">
+                        <img src="img/kakashi-fr.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="img/add-friends.png"> Friend</button>
+                <button type="button"><img src="img/message.png"> Message</button>
+                </br>
+                <a href=""><img src="img/more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">
+                       "It is not wise to judge others based on your own preconceptions and by their appearances"
+                    </br>
+                    -Uchiha Itachi-
+                    </p>
+                    <hr>
+                    <ul>
+                        <li><img src="img/profile-study.png"> Studied at Konoha Ninja Academy</li>
+                        <li><img src="img/profile-job.png"> Worked at Konoha Anbu</li>
+                        <li><img src="img/profile-job.png"> Member at Akatsuki</li>
+                        <li><img src="img/profile-location.png"> From Konoha Leaf Village</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                    
+                    <div class="photo-box">
+                        <div><img src="img/photo-1.png"></div>
+                        <div><img src="img/photo-2.png"></div>
+                        <div><img src="img/photo-3.png"></div>
+                        <div><img src="img/photo-4.png"></div>
+                        <div><img src="img/photo-5.png"></div>
+                        <div><img src="img/photo-6.png"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>25 (25 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="img/naruto-fr.png"><p>Naruto</p></div>
+                        <div><img src="img/sasuke-fr.png"><p>Sasuke</p></div>
+                        <div><img src="img/kisame-fr.png"><P>Kisame</P></div>
+                        <div><img src="img/obito-fr.png"><P>Obito</P></div>
+                        <div><img src="img/kakashi-fr.png"><p>Kakashi</p></div>
+                        <div><img src="img/pain-fr.png"><p>Pain</p></div>
+                        <div><img src="img/shisui-fr.png"><p>Shisui</p></div>
+                        <div><img src="img/guy-fr.png"><p>Guy</p></div>
+                        <div><img src="img/jiraiya-fr.png"><p>Jiraiya</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-col">
+                <div class="write-post-contaier">
+                    <div class="user-profile">
+                        <img src="img/my avt.jpg">
+                        <div class="">
+                            <p>Pham Long Hai</p>
+                            <small>Public <i class="fas fa-caret-down"></i> </small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="Write something to Itachi..."></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="img/live-video.png"> Live Video</a>
+                            <a href="#"><img src="img/photo.png"> Photo</a>
+                            <a href="#"><img src="img/feeling.png"> Feling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="img/Itachi_Akatsuki.png">
+                            <div>
+                              <p>Uchiha Itachi</p>
+                              <span>November 6 2021, 20:00 pm</span>
+                            </div> 
+                          </div>
+                          <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">Forgive me, Sasuke, this will be the last time.<a href=""> Uchiha Sasuke</a>
+                    </br>
+                    <img src="img/tut -1.gif" class="post-img">
+                    </p>
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="img/sad.png"> You and 4.4M others</div>
+                            <div><img src="img/comments.png"> 2.2M comments</div>
+                            <div><img src="img/share.png"> 792K shares</div>
+                        </div>
+    
+                        <div class="post-profile-icon">
+                            <img src="img/my avt.png"><i class="fas fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright © 2021 - Pham Long Hai</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
